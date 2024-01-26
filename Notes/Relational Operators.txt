@@ -1,0 +1,48 @@
+#include<iostream>
+
+using namespace std;
+
+int main(){
+
+
+    // Relational Operators (Comparision operators)
+
+    // >, <, >=, <=, ==, !=  --> true(1) or false(0)
+
+    // Use case :
+
+    // 1. if else codition checking in programing
+    // 2. while loop 
+
+
+    // Example 1. >
+
+    int a = 22;
+    int b = 23;
+
+    bool ans = a > b;
+
+    cout << ans << endl;
+
+    ans = a < b;
+
+    cout << ans << endl;
+
+    // <=
+
+    int num1 = 7;
+    int num2 = 10;
+
+    cout << (num1 <= num2) << endl;
+
+    // == 
+
+    string str1 = "Abc";
+    string str2 = "Abc";
+
+    cout << (str1 == str2) << endl;
+
+    cout << (str1 != str2) << endl;
+
+    return 0;
+}

@@ -1,0 +1,48 @@
+1. Graphs
+   --> Terminologies 
+   	--> Node
+   	--> Edges
+   	--> Directed and Undirected graph
+   	--> Cyclic and Acyclic graph
+   	--> Adjacency list and adjacency matrix
+   	--> Connected components
+   	--> Bipartite Graph --> Two colorable graph such a that two adjacent node not have same color, any graph with even cycle lenth can also be bipartite, odd 					can never be a bipartite 
+   	
+   --> BFS Algorithm --> Using Queue --> Explore all path not retricted to move in one path
+   --> DFS Algorithm --> Using Stack and recursion --> Explore only one path till depth reach
+   --> Cycle Detection --> Using BFS and DFS --> Undirected graph
+   	--> BFS --> Check two or multiple notes meeting at same point or not if meets cycle detedted!
+   	--> DFS --> Check wheather we are comming to same node more than one other than from where you are comming from 
+   	--> BFS(Topological Sort(Kahn's algo)) --> To detect cycle in Directed graph
+   --> Topological Sort --> DFS Used to solve(Color concept) --> DAG(Directed Acyclic Graph) then only exist --> Linear ordering of vertices such that if ther is an 													edge between u and v u appears before v in that ordering 													  
+   											--> if there is not any incomming edge  then we can consider that as part of 													odering
+   											
+   											--> Kahn's algo(BFS)--> Indegree concept
+   											
+   											--> Used in task scheduling --> Course Schedule task problem 
+   											--> Check Dependency
+   											--> Alien Dictionary problem --> Create a graph then use topo sort
+   											
+   --> Shortest path
+   	--> BFS --> Not Having Weight
+   	--> Dijksta's Algorithms --> Single source --> Weighted
+   		--> Using Priority Queue(Min Heap)
+   		--> Set
+   		--> Queue
+   		--> ****Fails when graph has negative edges (Path weight less than zero(0)) 
+   		
+   	--> Bellman Ford  --> Works on negative cycles also --> Single source --> DG
+   		--> If given undirected graph convert to directed graph so that it will work
+   		--> Relax All the edges N-1 times --> N --> Nodes 
+   		--> Relax ---> if dis[u] + wt < dis[v]:
+   					then dis[v] = dis[u] + wt
+   		--> On N th iteration the relaxation will be done and if the distance array get updated 
+   		
+   	--> Floyd Warshall
+   	
+   --> Minimum Spanning Tree --> How much minimum edge to remove from graph to make it tree
+   	--> Krushkal Algorith
+   	--> Prims ALgorith
+   
+   
+   

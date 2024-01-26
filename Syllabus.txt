@@ -1,0 +1,73 @@
+1. Data types
+    --> Primitive data types
+
+        --> 1. int
+        --> 2. float
+        --> 3. char
+        --> 4. array
+        --> 5. boolean
+        --> 6. double
+
+    --> User defined data types
+        --> 1. Class
+        --> 2. String
+        --> 3. Enumeration
+        --> 4. Union
+        --> 5. structure
+
+
+2. Operators:
+
+    --> 1. Arithmetic Operators
+        +, -, %, /, *
+
+    --> 2. Assignment operators 
+        +=, -=, %=, /=, */
+
+    --> 3. Realtional / conditional operators
+        >, <,  <=, >=, !=, ==
+
+    --> 4. Logical Operators
+        &&(and), ||(or), !
+
+    --> 5. Bitwise operators
+        &, |, ~(!), <<, >>
+
+    --> 6. Increment and decrement 
+        --> 1. Preincrement operators
+        --> 2. Postincrement operators
+        --> 3. Predecrement operators
+        --> 4. Postdecrement operators
+
+3. Conditional Statements
+
+    --> 1. If....else if .... .... else
+    ----> Problems on if else
+    --> 2. Switch case
+    --> 3. Ternary operator --> (condition) ? single Statement : elsePartSIngle Statement
+
+4. Looping Statements
+
+    --> 1. for Loop --> used when:- when you know where to  stop
+            --> Scope
+                 --> 1. Global Scope
+                 --> 2. Local Scope
+
+            --> infinite loop
+            --> Patterns
+    --> 2. while loop --> used when:-  when you don't know where to  stop
+    --> 3. Extention of for loop 
+    --> 4. break Statement --> to stop loop at any point 
+    --> 5. continue Statement --> to skip any part in loop
+
+5. Pointers --> They are special type of variable which can store memory address of other variable
+    --> Used to get reference of variable to avoid copy
+    --> Syntax 
+    type_of_pointer *variable_name = variable_address;
+    --> Referencing
+6. Array 
+
+
+
+
+

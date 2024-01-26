@@ -1,0 +1,23 @@
+Practice Examples
+
+
+1. 2 * 5 * 6 / 2 --> find answer into floating point and in integer format
+2. Store 5 user's mobile number in different variable and show it using formatting method
+
+output should be in following format
+
+user1 number : number , user 2 : number , user 3 : number so on......
+
+
+
+3. 3748378438 * 84738473 store this multiplication in suitable data type
+
+
+4. (37824728/ 472483) * 20 / 2
+
+--> output should come in decimal point use appropriate data type
+
+
+
+
+

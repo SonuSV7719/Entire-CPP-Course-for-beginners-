@@ -1,0 +1,87 @@
+#include<iostream>
+
+using namespace std;
+
+
+int main(){
+
+     // 1. Data type
+
+    // primitive data type                                            user defined data type
+
+    // int  --> 4 byte                                                         string 
+    // float --> 4 byte                                                        class
+    // char  --> 1 byte                                                        union
+    // bool   --> 1byte                                                     enumerators 
+    // double --> 8 byte
+    // long-->  8 
+    // long long --> 12 byte
+
+
+    // 2 ^ 32 ---> 4, 29, 49, 67, 296 / 2--->  2147483648 and, -2147483549 --> 10 ^9
+
+    // int num = 1e12;
+    int num1 = 7719845;
+
+    // long num2 = 7719845226; --> 10 ^ 12
+    // long long num2 --> 10 ^ 18 
+
+    // Operators 
+
+    // 1. Arithmetic Operators
+
+    // 2. Logical Operator
+
+    // 3. Relational Operators (Comparision)
+
+    // 4. assignment operators
+
+    // 5. Bitwise operators
+    //6. Increment and decrement
+
+
+    // Arithmetic Operators 
+
+    // Examples +, -, *, /, % 
+
+    int num3 = 2;
+    int num4 = 5;
+
+    int result = num3 + num4;
+
+    cout << "Addtion : " <<result << endl;
+    // cout << "sonu" << endl;
+
+
+    int substration_ans = num3 - num4;
+    cout << "Substation : " << substration_ans << endl;
+
+    int mul_result = num3 * num4;
+
+    cout << "Multication : " <<  mul_result << endl;
+
+    
+    float div_ans = (float)num3 / (float)num4;
+
+    cout << "Division : " << div_ans << endl;
+
+
+    int a = 2;
+    float b = 2.2;
+
+    int  ans =  a / b;
+
+
+    float c = 1.0;
+    cout << c << endl;
+    cout << ans << endl;
+
+    int num10 = 10;
+    int num11 = 3;
+
+    int remainder = num10 % num11;
+
+    cout << "Remainder : " << remainder << endl;
+
+    return 0;
+}

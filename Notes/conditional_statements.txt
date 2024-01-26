@@ -1,0 +1,165 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+    // 1. Conditional Statements in cpp
+
+    // 1. if... else or if... else if... else
+
+    // 2. switch case
+
+    // 1. if....else --> used with realational operators & logical operator
+
+    // Example 1.
+
+    int num = 2;
+    int num1 = 3;
+    // syntax
+    // if (condition){
+
+    // } else{
+
+    // }
+
+    if (num1 < num)
+    {
+        cout << "Num1 is greater num" << endl;
+    }
+    else
+    {
+        cout << "Num1 is not greater than num" << endl;
+    }
+    // if... else if ...else if ....... else
+    // syntax:
+    // if (condition){
+    // what you has do
+    // } else if (condition) {
+
+    // }else if (condition){
+    // }
+    // else{
+
+    // }
+
+    int num2 = 22;
+    int num3 = 55;
+    int num4 = 44;
+
+    if (num2 > num3)
+    {
+        cout << "num2 is greater than num3" << endl;
+    }
+    else if (num2 > num4)
+    {
+        cout << "num2 is greater than num4" << endl;
+    }
+    else if (num3 > num4)
+    {
+        cout << "num3 is greater than num4" << endl;
+    }
+    else if (num3 > num2)
+    {
+        cout << "num3 is greater than num2" << endl;
+    }
+    else
+    {
+        cout << "num4 is greater than" << endl;
+    }
+
+    // Nestest if..else or if... else if ...else if ....... else(if else inside if else)
+
+    // Example 1.
+
+    if (2 > 3)
+    {
+        if (3 > 2)
+        {
+            cout << "3 is greater " << endl;
+        }
+        else
+        {
+            cout << "2 is greater than3" << endl;
+        }
+    }
+    else
+    {
+        if (3 > 2)
+        {
+            cout << "3 is greater " << endl;
+        }
+        else
+        {
+            cout << "2 is greater than3" << endl;
+        }
+    }
+
+    // 1. Find out greatest number between two number
+
+    // example a = 22, b = 33
+    // output --> 33 is greater than 22
+
+    // How to take input from user
+    int a, b;
+    cout << "Enter num1 : ";
+    cin >> a;
+
+    // cout << a <<endl;
+
+    cout << "Enter num2 : ";
+    cin >> b;
+
+    if (a > b)
+    {
+        cout << a << " is greater than " << b << endl;
+    }
+    else
+    {
+        cout << b << " is greater than " << a << endl;
+    }
+
+    string name = "xyz";
+    string name1 = "xyx";
+    string name2 = "abc";
+    string name3 = "abc";
+
+    if (name == name1 && name2 == name3)
+    {
+        cout << "name1 and name are equal and name2 and name3 are equal" << endl;
+    }
+    else
+    {
+        cout << "Both condition are not true that's why are in else block" << endl;
+    }
+
+    if (name == name1 || name2 == name3)
+    {
+        cout << "name1 and name are equal and name2 and name3 are equal" << endl;
+    }
+    else
+    {
+        cout << "Both condition are not true that's why are in else block" << endl;
+    }
+
+    // 2. you have to take three numbers from user and you have to find greatest number among them(two approaches 1. nestest if else 2. multiple conditions or (Logical operator with realtional op))
+
+    // 3.calculate the Simple Interest.
+    // Write a program to calculate the simple interest based on principal amount, rate, and time provided by the user. The simple interest formula is Simple Interest = (Principal * Rate * Time) / 100.
+
+    // 4. Calculate the area of a triangle, square, circle, rectagle also add perimeter
+
+    // 5. Write a program with supporting documentation to enter any three real numbers and calculate X where:
+    // X  =  Product of integer portion/ Sum of decimal portion
+
+    // example a = 22.21
+    // b = 33.32
+    // c = 44.43
+    // x = (22 * 33 * 44 )/(21 + 32 + 43)
+
+    // float a = 22.21;
+    // int iteger = a;
+
+    return 0;
+}

@@ -1,0 +1,99 @@
+#include<iostream>
+
+using namespace std;
+
+class className{
+    int num = 2;
+};
+
+union union1{
+    int num; //--> 4 bytes 
+    char ch; //-> 1 byte 
+};
+
+enum E {
+
+    INDIA, 
+    AMERiCA
+};
+
+int main(){
+
+    // dataType name_of_variable = value;
+
+    // ; --> delimiter --> end of one statement
+    // value --> int, float , string("banana"), char ('d', '{', ), 
+
+    int num = 28273;
+    cout << num;
+
+    // type of comments 
+
+
+    // 1. single line comments --> syntax
+
+    // single line comemnts
+
+    // 2. multiline comments
+    /*
+    multi 
+    line 
+    comments
+    */
+
+    // addtion by taking two number as input (x, y)
+
+
+    // 1. Data type
+
+    // primitive data type                                            user defined data type
+
+    // int                                                                      string 
+    // float                                                                  class
+    // char                                                                   union
+    // bool                                                                   enumerators 
+    // double 
+    // long long
+
+    // Array
+
+    // 1. Primitive data types 
+
+    int num2 = 22;
+
+
+    // variable naming convetion
+    // 1. we can't able to give space in variable 
+    // 2. special character can't be used in variable
+    // number, aphabates and, _ 
+
+
+    float num3 = 2.2;
+
+    char ch = '$';
+    char ch1= '{';
+
+    char ch2 = '8';
+    char ch3 = 'n';
+
+
+    bool b1 = true;  //1 float num3 = 2.2;
+
+    char ch = '$';
+    char ch1= '{';
+
+    char ch2 = '8';
+    char ch3 = 'n';
+
+
+    bool b1 = true;  //1
+    bool b2 = false; //0
+
+
+    bool b2 = false; //0
+
+    string name = "ABC";
+
+
+    return 0;
+}

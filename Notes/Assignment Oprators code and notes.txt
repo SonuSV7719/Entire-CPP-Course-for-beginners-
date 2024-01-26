@@ -1,0 +1,59 @@
+#include<iostream>
+
+using namespace std;
+
+int main(){
+
+    // Assignment operators --> arithmetic op + =
+
+    // +=, -=, *=, /=, %= 
+
+    // 1. Example 1
+
+    int num = 10;
+    num = num + 2;
+
+    cout << num << endl; // 12
+
+    num += 2; // num = num + 2
+    cout << num << endl; // 14 
+
+    // 2. Example 
+
+    num = num - 4;
+
+    cout << num << endl; // 10
+
+    num -= 4;
+    cout << num << endl; // 6
+
+    // 3. Example *= 
+
+    num = num * 4;
+
+    cout << num << endl; // 24 
+
+    num *= 4; // num = num * 4
+
+    // 4. Exampele /= 
+
+    float num2 = 10;
+
+    num2 = num2 / 2;
+
+    num2 /= 2;
+
+    cout << num2 << endl; // 2.5
+
+    int num3 = 10;
+
+    num3 = num3 % 2;
+    num3 %= 2;
+
+    cout << num3 << endl;
+
+
+
+
+    return 0;
+}
