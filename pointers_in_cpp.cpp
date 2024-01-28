@@ -62,13 +62,50 @@ int main(){
     cout << "str address using ptr1: "<< ptr1 <<endl;
     cout << "value of str using ptr1: "<< *ptr1 << endl;
 
-    // Reference
+    //==============================================================================================
+
+    //2.  Reference
     float num2 = 22;
     float &ref = num2; // Not creating copy 
     cout << "value of str using num2: : "<< num2 << endl;
     ref = 33;
     cout << "value of str using num2: : "<< num2<< endl;
     cout << "value of str using ref: : "<< ref<< endl;
+
+    cout << "Address of num2 : " << (&num2) <<endl;
+    cout << "Address of ref: " << (&ref) <<endl;
+
+    //==============================================================================================
+
+    //3. Double Pointers
+
+    string str2 = "XYZ";
+
+    string *strPtr = &str2;
+
+    string **doublePtr = &strPtr;
+
+    string ***triplePtr = &doublePtr;
+
+    cout << "Str2 Address: " << (&str2) << " strPtr: " << (&strPtr) << "Value of strPtr: "<< (strPtr)<<endl;
+
+    cout << "Memory address of str2 using strptr: " << strPtr <<endl;
+    cout << "Memory address of strPtr using doublePtr: " << doublePtr <<endl;
+    cout << "Memory address of doublePtr using triplePtr: " << triplePtr <<endl;
+    cout << "Value of str2 using strPtr: " << (*strPtr) << endl;
+
+    *strPtr = "abc";
+    cout << "Value of str2: " << (str2) << endl;
+    cout << "Value of str2 using strPtr: " << (*strPtr) << endl;
+    cout << (**doublePtr) << endl;
+
+
+    // 1. How to get address of any
+    // 2. How to make pointer
+    // 3. How to find address of variable which stored inside pointer using pointer only
+    // 4. How to get value of variable using pointer where the variable address stored 
+    // 5. How to update value using pointer
+
 
 
     return 0;

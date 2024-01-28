@@ -1,0 +1,47 @@
+1. Encapsulation
+	--> Binding methods and variables together into a single unit called class
+	--> Data is only accessible from the class methods
+	--> also lead to data abstraction (Hiding class) --> Abstract data type
+	--> Setter and getter to use variables
+	
+2. Abstactions:
+	--> Enables us to display only essential information while hiding 		    implementation details
+
+3. Inheritance:
+	--> class inherits properties of other class
+	-->   A ----->> Parrent class
+	      |
+	      |
+	      |
+	     \/
+	      B ---> child
+	--> Code reusability
+	--> Access Modifiers 
+		--> Public --> Any one can access
+		--> Private --> only in own class
+		--> Protected --> own, parent and child class accessible
+		
+	--> public inherit --> public will be public, private not accessible and protected will be protected
+	--> Private inherit --> public will be private, private will not accessible and protected will be private
+	--> Protected inherit --> public will be public, private will not accessible and protected will be protected
+	
+	--> Types:
+		--> Single Inheritance
+		--> Multiple Inheritance
+		--> Multi level Inheritance
+		--> Hierachical inheritance -> one parent and multiple child
+		--> Hybrid Inheritance --> more than one inheritance
+				       --> Dimond problem 
+				       	
+4. Polymorphism:
+	--> ability of object/ methods to take different forms
+	--> Types:
+		--> Compile time --> early binding
+			--> Function overloading
+			--> Operator Overloading
+			--> 
+		--> Run Time --> Late binding
+			--> Function overriding
+			--> Virtual Funtion
+			
+5. Friend Funtion --> Non member function which can access private variables

@@ -64,8 +64,35 @@
     --> Used to get reference of variable to avoid copy
     --> Syntax 
     type_of_pointer *variable_name = variable_address;
-    --> Referencing
+    --> Referencing --> Reference is basically just rename of variable which point to same address as variable 
+    --> Double Pointers --> pointer of pointer 
+
 6. Array 
+    --> Declare / define
+    --> Read --> using index 
+    --> How to iterate(looping) on array 
+    --> For loop extenstion 
+    --> auto --> automatically detect data type
+    --> Update 
+    --> Range based looping
+    --> Reverse looping in array
+    --> Problems on array 
+    --> how to take array input
+
+7. Functions in CPP
+    --> Inline Function
+
+8. structure
+
+9. Classes 
+    --> Class
+    --> Object
+    --> Encapsulation
+    --> Abstaction
+    --> Inheritance
+    --> Pollymorphism
+
+10. Enumeration and Union
 
 
 
