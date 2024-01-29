@@ -80,6 +80,7 @@
     --> how to take array input
 
 7. Functions in CPP
+    --> Declaration and defination of function
     --> Inline Function
 
 8. structure
