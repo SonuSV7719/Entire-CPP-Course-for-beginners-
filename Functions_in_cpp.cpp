@@ -29,6 +29,12 @@ void addition(int num1, int num2, int num3){
     cout <<"Inside addition 3: "<< sum << endl;
 }
 
+// Default Parameter function
+
+int addtion1(int a = 1, int b = 1){
+    return a + b;
+}
+
 int main(){
 
     // int num1 = 55
@@ -64,9 +70,13 @@ int main(){
 
     cout << mul <<endl;
 
+    cout << "Addition: " << addtion1(2, 7) << endl;
+
 
     return 0;
 }
+
+
 
 // Defination of function
 int multiplication(int num1, int num2){

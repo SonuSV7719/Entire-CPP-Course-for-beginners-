@@ -80,20 +80,35 @@
     --> how to take array input
 
 7. Functions in CPP
+    --> types
+            --> function with parameters but no return type 
+            --> Function with parameters and with return type 
+            --> function without parameters but no return type
+            --> Function without parameters but with return type
+            --> Default parameters 
     --> Declaration and defination of function
     --> Inline Function
+    --> Default parameters
+    --> Nested function
+
+=========================================Adavance C++======================================
 
 8. structure
-
-9. Classes 
-    --> Class
-    --> Object
-    --> Encapsulation
-    --> Abstaction
-    --> Inheritance
-    --> Pollymorphism
+    
+9.oop's (Object Oriented Programming){
+    1. Classes 
+        --> Class
+        --> Object
+        --> Encapsulation
+        --> Abstaction
+        --> Inheritance
+        --> Pollymorphism
+}
 
 10. Enumeration and Union
+11. Namespace
+12. STL
+
 
 
 
