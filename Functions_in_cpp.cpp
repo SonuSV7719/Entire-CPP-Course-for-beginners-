@@ -34,7 +34,16 @@ void addition(int num1, int num2, int num3){
 int addtion1(int a = 1, int b = 1){
     return a + b;
 }
+// 
+int greatestBet2(int a, int b){
+    if (a > b){
+        return a;} // a = 2 > 4
+    // }else{
+    //     return b;
+    // }
 
+    return b; // b = 4
+}
 int main(){
 
     // int num1 = 55
@@ -57,6 +66,10 @@ int main(){
 
     // function_name(actual value1, actual value2, ....)
 
+    // int a = 4;
+    // cout << 4;
+    // int num = greatestBet2(4, 2);
+    // cout << greatestBet2(4, 2);
     int sum = addition(55, 100);
     sum = addition(5, 8);
 
