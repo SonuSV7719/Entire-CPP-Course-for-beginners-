@@ -46,6 +46,53 @@ struct Vehical{
     }
 
 };
+// human --> 
+    // properties --> hairColor
+    //             --> eyeColor
+    //             --> Name
+    //             --> id 
+    //             ---> eatFood, pick, think, walk
+struct Human{
+    // Properties of Human
+    string hairColor = "Black";
+    string eyeColor = "Black";
+    string name;
+    int id;
+
+    // Function --> Activities of human
+    int eatFood(string foodName){
+        if (foodName == "banana"){
+            return 20;
+        }
+        return 30;
+    }
+
+    bool canIPick(int w){
+        (w <= 30) ? return true : return false; // ternary operator
+    }
+
+    void pick(int weight){
+        if (canIPick(weight)){
+            cout << "I am picking " << weight << endl;
+        }else{
+            cout << "I can not able to pick" << endl;
+        }
+    }
+
+    void think(){
+        cout << name << " is thinking....................." << endl;
+    }
+
+    int walk(int energy){
+        if (energy < 20 ){
+            return 30;
+        }else if (energy >= 20 && energy <= 30){
+            return 50;
+        }else{
+            return 60;
+        }
+    }
+}
 
 
 
@@ -107,6 +154,31 @@ int main(){
     cout << "Color of my BMW vehical: " << CopyBMW->color << endl;
     cout << "Chase no: " << CopyBMW->chaseNo << endl;
     cout << "Name : " << CopyBMW->vehicalName << endl;
+
+
+    // human --> 
+    // properties --> hairColor
+    //             --> eyeColor
+    //             --> Name
+    //             --> id 
+    //             ---> eatFood, pick, think, walk
+
+
+    Human rahul;
+
+    rahul.name = "Rahul";
+    rahul.id = 1;
+
+
+    int energy = rahul.eatFood("Banana");
+
+    int distance = rahul.walk(energy);
+
+    rahul.think();
+
+    cout << distance << " Travelled by " << rahul.name << endl; 
+
+
 
 
 

@@ -44,6 +44,16 @@ int greatestBet2(int a, int b){
 
     return b; // b = 4
 }
+
+bool canIPickObject(float weight){ // float weight = w(20)
+    if(weight <= 30)
+    {
+        return true;
+    }
+
+    return false;
+}
+
 int main(){
 
     // int num1 = 55
@@ -85,6 +95,15 @@ int main(){
 
     cout << "Addition: " << addtion1(2, 7) << endl;
 
+    int w = 20;
+    bool ans = canIPickObject(w);
+    cout << canIPickObject(w) << endl; // whole function will be going to replace by --> true
+
+    // game --> task --> eat --> food --> 
+    // if --> banana -> i will get 30% energy
+    // if --> apple --> return 20% energy
+    // if --> chapati --> return 50%
+    // else 25%
 
     return 0;
 }
